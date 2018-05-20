@@ -1,0 +1,20 @@
+import requests
+
+from lxml import etree
+url = 'https://movie.douban.com/tag/top100?type=S'
+data = requests.get(url).text
+s = etree.HTML(data)
+dirctor = s.xpath('//*[@id="info"]/span[1]/span[2]/a/text()')[0]
+time = s.xpath('//*[@id="info"]/span[13]/text()')[0]
+actor = s.xpath('//*[@id="info"]/span[3]/span[2]/a/text()')
+score = s.xpath('//*[@id="interest_sectl"]/div[1]/div[2]/strong/text()')[0]
+
+print('导演:', dirctor)
+print('片长:', time)
+print('主演：', actor)
+print("评分：", score)
+//*[@id="content"]/div/div[1]/div[2]/table[1]/tbody/tr/td[2]/div/a
+//*[@id="content"]/div/div[1]/div[2]/table[2]/tbody/tr/td[2]/div/a
+
+
+
