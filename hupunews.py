@@ -21,21 +21,3 @@ with open('hupunews.txt', 'w', encoding='utf-8') as f:
 
 
 
-'''''//*[@id="gridview-1098"]/table/tbody/tr[5]/td[4]/div
-//*[@id="gridview-1098"]/table/tbody/tr[6]/td[4]/div
-//*[@id="gridview-1098"]/table/tbody/tr[7]/td[4]/div
-//*[@id="ext-gen2412"]/td[4]/div
-//*[@id="sports"]/div[2]/div[1]/ul/li[1]
-//*[@id="sports"]/div[2]/div[1]/ul/li[2]/a
-//*[@id="sports"]/div[2]/div[1]/ul/li[3]/a
-//*[@id="sports"]/div[2]/div[1]
-//*[@id="sports"]/div[2]/div[1]/div[2]/h3/a
-/html/body/div[4]/div[1]/div[1]/div[1]/div[2]/ul/li[1]/a
-/html/body/div[4]/div[1]/div[1]/div[1]/div[2]/ul/li[2]/a
-/html/body/div[4]/div[1]/div[1]/div[1]/div[2]/ul
-/html/body/div[4]/div[1]/div[1]/div[1]/div[2]/ul/li[7]/a
-/html/body/div[4]/div[1]/div[1]/div[1]/div[2]/ul/li[6]/a
-/html/body/div[4]/div[1]/div[2]/div/div[2]/p[1]
-/html/body/div[4]/div[1]/div[2]/div/div[2]/p[2]
-/html/body/div[4]/div[1]/div[2]/div/div[2]/p[1]
-/html/body/div[4]/div[1]/div[1]/h1'''
